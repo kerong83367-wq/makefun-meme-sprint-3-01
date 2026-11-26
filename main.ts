@@ -24,4 +24,4 @@ checkEntry(SRC, MAX_BYTES);
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(out, { recursive: true });
 copyFileSync(SRC, join(out, 'entry.png'));
-// The output is exactly the bundled meme, byte for byte, nothing more.
+// The output is exactly the bundled meme, byte for byte — the same file, twice.
